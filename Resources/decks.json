@@ -1,0 +1,28 @@
+[
+{
+    "id":"Fighter - Starting",
+    "name":"Fighter Deck",
+    "role":"STARTING",
+    "type":"STARTING",
+    "cards":[{"id":"Attack lvl 1",
+              "count":3},
+              {"id":"Shield lvl 1",
+              "count":1},
+             {"id":"Rage lvl 1",
+              "count":6}]
+},
+{
+    "id":"Rogue - Starting",
+    "name":"Rogue Deck",
+    "role":"STARTING",
+    "type":"STARTING",
+    "cards":[{"id":"Attack lvl 1",
+              "count":2},
+              {"id":"Shoot lvl 1",
+              "count":1}
+              {"id":"Dodge lvl 1",
+              "count":1},
+             {"id":"Cunning lvl 1",
+              "count":6}]
+}
+]

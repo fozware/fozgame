@@ -1,0 +1,135 @@
+[
+{
+    "id":"Rage lvl 1",
+    "name":"Rage lvl 1",
+    "type":"Resource",
+    "image":"Deck2/Main/batarang.jpg",
+    "cost":{"type":"FIXED",
+            "cost":0},
+    "playEffects":[{"type":"GAIN_RAGE",
+                    "rage":1}]
+},
+{
+    "id":"Rage lvl 2",
+    "name":"Rage lvl 2",
+    "type":"Resource",
+    "image":"Deck2/Main/batarang.jpg",
+    "cost":{"type":"FIXED",
+            "cost":3},
+    "playEffects":[{"type":"GAIN_RAGE",
+                    "rage":2}]
+},
+{
+    "id":"Rage lvl 3",
+    "name":"Rage lvl 3",
+    "type":"Resource",
+    "image":"Deck2/Main/batarang.jpg",
+    "cost":{"type":"FIXED",
+            "cost":6},
+    "playEffects":[{"type":"GAIN_RAGE",
+                    "rage":3}]
+},
+{
+    "id":"Mana lvl 1",
+    "name":"Mana lvl 1",
+    "type":"Resource",
+    "image":"Deck2/Main/batarang.jpg",
+    "cost":{"type":"FIXED",
+            "cost":0},
+    "playEffects":[{"type":"GAIN_MANA",
+                    "mana":1}]
+},
+{
+    "id":"Mana lvl 2",
+    "name":"Mana lvl 2",
+    "type":"Resource",
+    "image":"Deck2/Main/batarang.jpg",
+    "cost":{"type":"FIXED",
+            "cost":3},
+    "playEffects":[{"type":"GAIN_MANA",
+                    "mana":2}]
+},
+{
+    "id":"Mana lvl 3",
+    "name":"Mana lvl 3",
+    "type":"Resource",
+    "image":"Deck2/Main/batarang.jpg",
+    "cost":{"type":"FIXED",
+            "cost":6},
+    "playEffects":[{"type":"GAIN_MANA",
+                    "mana":3}]
+},
+{
+    "id":"Cunning lvl 1",
+    "name":"Cunning lvl 1",
+    "type":"Resource",
+    "image":"Deck2/Main/batarang.jpg",
+    "cost":{"type":"FIXED",
+            "cost":0},
+    "playEffects":[{"type":"GAIN_CUNNING",
+                    "cunning":1}]
+},
+{
+    "id":"Cunning lvl 2",
+    "name":"Cunning lvl 2",
+    "type":"Resource",
+    "image":"Deck2/Main/batarang.jpg",
+    "cost":{"type":"FIXED",
+            "cost":3},
+    "playEffects":[{"type":"GAIN_CUNNING",
+                    "cunning":2}]
+},
+{
+    "id":"Cunning lvl 3",
+    "name":"Cunning lvl 3",
+    "type":"Resource",
+    "image":"Deck2/Main/batarang.jpg",
+    "cost":{"type":"FIXED",
+            "cost":6},
+    "playEffects":[{"type":"GAIN_CUNNING",
+                    "cunning":3}]
+},
+{
+    "id":"Attack lvl 1",
+    "name":"Attack lvl 1",
+    "type":"Action",
+    "image":"Deck2/Main/batarang.jpg",
+    "cost":{"type":"FIXED",
+            "cost":1},
+    "playEffects":[{"type":"MELEE",
+                    "damage":2}]
+},
+{
+    "id":"Shoot lvl 1",
+    "name":"Shoot lvl 1",
+    "type":"Action",
+    "image":"Deck2/Main/batarang.jpg",
+    "cost":{"type":"FIXED",
+            "cost":1},
+    "playEffects":[{"type":"RANGE",
+                    "damage":1}]
+},
+{
+    "id":"Shield lvl 1",
+    "name":"Shield lvl 1",
+    "type":"Special",
+    "image":"Deck2/Main/batarang.jpg",
+    "cost":{"type":"FIXED",
+            "cost":3},
+    "playEffects":[{"type":"DEFENSE",
+                    "armor":1}]
+},
+{
+    "id":"Dodge lvl 1",
+    "name":"Dodge lvl 1",
+    "type":"Reaction",
+    "image":"Deck2/Main/batarang.jpg",
+    "cost":{"type":"FIXED",
+            "cost":3},
+    """Not really sure how we'd handle this one, but the tabletop equivalent
+    would be to discard it and avoid 1 attack.
+    Also some sort of handEffects where it doesn't need to be discarded"""
+    "playEffects":[{"type":"DEFENSE",
+                    "armor":2}]
+},
+]
