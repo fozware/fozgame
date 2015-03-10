@@ -1,0 +1,23 @@
+[
+{
+    "id":"Fighter",
+    "name":"Fighter",
+    "level":1,
+    "max_hp":10,
+    "curren_hp":10,
+    "current_xp":0,
+    "next_level_xp":100,
+    "armor":0,
+    "temp_armor":0,
+    "hand_size":5,
+    "actions":1,
+    "buys":1,
+    "class_card":[{"id":"Shield lvl 1"}],
+    "max_dungeon_cards":1,
+    "dungeon_cards":[],
+    "cards":[{"id":"Attack lvl 1",
+              "count":3},
+             {"id":"Rage lvl 1",
+              "count":6}]
+}
+]
